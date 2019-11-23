@@ -1,0 +1,9 @@
+import os
+
+# SET MONGO ADDRESS AND PORT ON SERVER ENV VARIABLES
+MONGO_ADDRESS = os.environ.get('UAD_SCRAPER_MONGO_ADDRESS', 'localhost')
+MONGO_PORT = os.environ.get('UAD_SCRAPER_MONGO_PORT', '27017')
+MONGO_USER = os.environ.get('UAD_SCRAPER_MONGO_USER', 'local')
+MONGO_PASS = os.environ.get('UAD_SCRAPER_MONGO_PASS', 'local')
+
+
